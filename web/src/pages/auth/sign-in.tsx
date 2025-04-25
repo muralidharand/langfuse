@@ -178,7 +178,7 @@ export function SSOButtons({
           <Divider className="text-muted-foreground">or {action} with</Divider>
         )}
         <div className="flex flex-row flex-wrap items-center justify-center gap-4">
-          {authProviders.google && (
+                    {authProviders.google && (
             <Button
               onClick={() => handleSignIn("google")}
               variant="secondary"
